@@ -1,0 +1,341 @@
+@font-face {
+  font-family: GothaPro-light;
+  src: url(../fonts/GothaProLig.otf);
+}
+@font-face {
+  font-family: GothaPro-regular;
+  src: url(../fonts/GothaProReg.otf);
+}
+@font-face {
+  font-family: GothaPro-medium;
+  src: url(../fonts/GothaProMed.otf);
+}
+@font-face {
+  font-family: GothaPro-bold;
+  src: url(../fonts/GothaProBol.otf);
+}
+@font-face {
+  font-family: GothaPro-black;
+  src: url(../fonts/GothaProBla.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+ 
+::after, ::before {
+  box-sizing: border-box;
+}
+ 
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+    
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  background: #fff;
+  font-family: GothaPro-regular;
+  color: #09242f;
+}
+/* basic css end */
+
+
+/* === header section start === */
+.header {
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  top: 30px;
+}
+.navbar .navbar-brand {
+  width: 200px;
+  text-align: center;
+}
+
+.navbar .main-nav li {
+  display: inline-block;
+}
+
+/* .navbar .nav-link {
+  font-family: GothaPro-bold;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  transition: all 0.2s linear;
+} */
+
+.navbar .slogan {
+  font-family: GothaPro-bold;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+
+/* .navbar .nav-link:hover {
+  color: #09242f;
+} */
+/* ===//end of header section === */
+
+/* === Banner section start === */
+.banner {
+  min-height: 600px;
+  padding-bottom: 80px;
+  background:  linear-gradient(
+    to top,
+    #fff 10%,
+    rgb(154, 208, 250)
+  );
+  position: relative;
+}
+
+.banner .container {
+  padding-top: 150px;
+}
+
+.banner .heading {
+  font-size: 50px;
+}
+
+.banner .sub-heading {
+  font-size: 20px;
+}
+
+.banner .offer-heading {
+  font-family: GothaPro-bold;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 700;
+  padding: 30px 0 0 0;
+}
+
+.offer-price .currency-sign {
+  font-size: 70px;
+  margin-top: -40px;
+}
+
+.offer-price .main-price {
+  font-size: 140px;
+  line-height: 160px;
+}
+
+.offer-price .right-price li {
+  font-size: 70px;
+  line-height: 45px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.offer-price .right-price li sup {
+  top: -10px;
+  left: -25px;
+}
+
+.banner .contact span {
+  font-family: GothaPro-medium;
+  font-size: 25px;
+  font-weight: 500;
+  background: #fbd340;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 4px solid #fff;
+}
+/* ===//end of Banner section === */
+
+/* === service section start === */
+.service .heading {
+  font-family: GothaPro-bold;
+  font-size: 20px;
+  color: #fbd340;
+}
+
+.service .horizental-line {
+  width: 100%;
+  height: 1px;
+  max-width: 200px;
+  background: #09242f;
+  margin: 10px auto;
+  opacity: 0.3;
+}
+
+.service .sub-heading {
+  font-size: 18px;
+}
+
+.service .service-item span {
+  font-size: 14px;
+  color: #777;
+  display: block;
+  padding-bottom: 30px;
+}
+
+.service p {
+  font-size: 16px;
+  text-align: center;
+  padding: 30px 0 60px 0;
+}
+/* ===//end of service section === */
+
+/* === client section start === */
+.client .heading {
+  font-family: GothaPro-light;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  background: #09242f;
+}
+
+.client ul {
+  text-align: center;
+  padding: 10px 0 20px 0;
+}
+
+.client ul li {
+  display: inline-block;
+  padding: 30px 15px;
+  text-align: center;
+}
+
+.client ul li img {
+  max-width: 150px;
+}
+/* ===//end of client section === */
+
+/* === security section start === */
+.security {
+  background : -moz-linear-gradient(50% 100% 90deg,rgba(255, 255, 255, 1) 0%,rgba(254, 255, 255, 1) 0.63%,rgba(211, 235, 253, 1) 28.75%,rgba(180, 220, 251, 1) 54.06%,rgba(161, 211, 250, 1) 75.44%,rgba(154, 208, 250, 1) 90.32%);
+  background : -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(254, 255, 255, 1) 0.63%, rgba(211, 235, 253, 1) 28.75%, rgba(180, 220, 251, 1) 54.06%, rgba(161, 211, 250, 1) 75.44%, rgba(154, 208, 250, 1) 90.32%);
+  background : -webkit-gradient(linear,50% 100% ,50% 0% ,color-stop(0,rgba(255, 255, 255, 1) ),color-stop(0.0063,rgba(254, 255, 255, 1) ),color-stop(0.2875,rgba(211, 235, 253, 1) ),color-stop(0.5406,rgba(180, 220, 251, 1) ),color-stop(0.7544,rgba(161, 211, 250, 1) ),color-stop(0.9032,rgba(154, 208, 250, 1) ));
+  background : -o-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(254, 255, 255, 1) 0.63%, rgba(211, 235, 253, 1) 28.75%, rgba(180, 220, 251, 1) 54.06%, rgba(161, 211, 250, 1) 75.44%, rgba(154, 208, 250, 1) 90.32%);
+  background : -ms-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(254, 255, 255, 1) 0.63%, rgba(211, 235, 253, 1) 28.75%, rgba(180, 220, 251, 1) 54.06%, rgba(161, 211, 250, 1) 75.44%, rgba(154, 208, 250, 1) 90.32%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#9AD0FA' ,GradientType=0)";
+  background : linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(254, 255, 255, 1) 0.63%, rgba(211, 235, 253, 1) 28.75%, rgba(180, 220, 251, 1) 54.06%, rgba(161, 211, 250, 1) 75.44%, rgba(154, 208, 250, 1) 90.32%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9AD0FA',endColorstr='#FFFFFF' , GradientType=0);
+  padding: 80px 0 150px 0;
+}
+
+.monitored-security .heading {
+  font-family: GothaPro-light;
+  font-size: 40px;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.security .sub-heading {
+  font-family: GothaPro-bold;
+  font-size: 30px;
+  font-weight: 700;
+  padding-right: 15px;
+}
+
+
+.security .monitored-security .sub-heading {
+  margin-top: 40px;
+}
+
+.security .monitored-security span {
+  display: block;
+}
+
+.security .offer-price .currency-sign {
+  font-size: 40px;
+  margin-top: -40px;
+}
+
+.security .offer-price .main-price {
+  font-size: 110px;
+  line-height: 160px;
+}
+
+.security .offer-price .right-price li {
+  font-size: 40px;
+  line-height: 35px;
+}
+
+.security .offer-price .right-price li sup {
+  left: -12px;
+}
+
+.security .border-left {
+  border-left: 1px solid #09242f !important;
+  padding-left: 15px;
+}
+
+.security .offer-botom {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.security p {
+  font-family: GothaPro-light;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+  padding-top: 30px;
+}
+
+.free-home-security .heading{
+  font-family: GothaPro-bold;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffec00;
+}
+
+.security .heading-sm {
+  font-family: GothaPro-light;
+  font-size: 40px;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.free-home-security h5 {
+  font-family: GothaPro-medium;
+  font-weight: 500;
+  font-size: 25px;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.security .free-home-security p {
+  padding-top: 0;
+  color: #fff;
+}
+/* ===//end of security section === */
+
+/* === home-img section start === */
+.home-img img {
+  margin-top: -175px;
+}
+/* ===//end of home-img section === */
+
+/* === footer section start === */
+.footer {
+  background: #fbd340;
+  padding: 20px 0
+}
+.footer p{
+  font-size: 30px;
+  text-align: center;
+
+}
+/* ===//end of footer section === */
+
+  /* font-family: GothaPro-light;
+  font-family: GothaPro-regular;
+  font-family: GothaPro-medium;
+  font-family: GothaPro-bold;
+  font-family: GothaPro-black; */
